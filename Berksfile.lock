@@ -1,0 +1,17 @@
+DEPENDENCIES
+  nbs-wikipedia
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.6.0)
+  hadoop (1.5.0)
+    apt (>= 0.0.0)
+    java (~> 1.21)
+    yum (>= 3.0)
+  java (1.28.0)
+  nbs-wikipedia (0.1.0)
+    apt (~> 2.6.0)
+    hadoop (~> 1.5.0)
+    java (~> 1.28.0)
+  yum (3.3.2)
