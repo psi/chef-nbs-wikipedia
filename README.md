@@ -45,9 +45,9 @@ follows:
 3. The reporter process could then spread its calculating queries across
    the replicas on a per-language basis. Options for implementation here
    include using the connection pooling built into mgo (the MongoDB driver
-   for Go that I'm using), which supports replica sets or by putting the
+   for Go that I'm using), which supports replica sets, or putting the
    replicas behind HAProxy. The latter would be my preference for
-   production use since it would allow for monitoring and removal of
+   production use as it would allow for monitoring and removal of
    unhealthy replicas from the pool.
 
 MongoDB is currently wide-open, so adding authentication would generally
