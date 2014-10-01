@@ -6,3 +6,4 @@
 
 include_recipe 'apt'
 include_recipe 'nbs-wikipedia::mongodb'
+include_recipe 'nbs-wikipedia::utils'
